@@ -60,16 +60,39 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #fed136; }
 
-.center {
-  display: flex;
-  justify-content: center; }
+label {
+  font-family: roboto;
+  text-align: left;
+  color: #666;
+  font-size: 18px;
+  padding: 10px 0; }
 
 .monto-inscripcion {
-  margin-top: 100px;
+  text-align: left !important;
+  padding: 50px 30px 10px 30px;
+  margin: 120px 0;
   background-color: #fff;
   border-radius: 10px;
-  width: 40%;
   color: #666; }
+
+@media (max-width: 425px) {
+  .monto-inscripcion {
+    margin-top: 0px; } }
+
+button {
+  width: 100%;
+  background-color: #fbff29;
+  padding: 10px 0;
+  border-radius: 10px;
+  box-shadow: none;
+  margin: 20px auto;
+  color: #999;
+  font-size: 20px; }
+
+.background1 {
+  background-color: #fbff29;
+  border-radius: 100%;
+  width: 100%; }
 
 #mainNav {
   background-color: #222222; }
